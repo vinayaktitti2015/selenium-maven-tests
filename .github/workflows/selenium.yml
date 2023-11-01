@@ -7,7 +7,7 @@ on:
 
 jobs:
   selenium-test:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
     - name: Checkout code
@@ -22,7 +22,7 @@ jobs:
 
     - uses: browser-actions/setup-chrome@latest
     - run: chrome --version
-    
+
     - name: Build and Test
       run: |
         mvn test
