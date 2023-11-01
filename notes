@@ -1,0 +1,19 @@
+Design Patterns:
+1. Fluent Page Object Model
+2. Pagefactory design pattern
+3. Singleton design pattern
+4. Browser driver factory 
+5. Facade design pattern
+
+Exceptions Handling:
+1. no Such element exception 
+   Workarounds:
+  implicit wait 
+  explicit wait for the element to load
+  
+  
+2. Element not clickable exception/ element intercepted exception 
+   Workarounds:
+   Actions class 
+   JavaScriptExecutor 
+  

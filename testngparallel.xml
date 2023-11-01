@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests" thread-count="4">
+	<test name="Test1">
+		<classes>
+			<class name="tests.HandlingCheckboxes"/>
+		</classes>
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="tests.LoginpageFactoryTest"/>
+		</classes>
+	</test>
+	<test name="Test3">
+		<classes>
+			<class name="tests.LoginTest"/>
+		</classes>
+	</test>
+	<test name="Test4">
+		<classes>
+			<class name="tests.WebTableTest"/>
+		</classes>
+	</test>
+</suite>

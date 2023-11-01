@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testgroups(failed)">
+    <groups>
+      <run>
+        <include name="regressiontest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.LoginpageFactoryTest">
+        <methods>
+          <include name="testLoginDirectFunction"/>
+          <include name="testLoginwithBlankCredentials"/>
+          <include name="testLoginwithInValidPassword"/>
+          <include name="testLoginwithInValidUsername"/>
+        </methods>
+      </class> <!-- tests.LoginpageFactoryTest -->
+    </classes>
+  </test> <!-- Testgroups(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+	<test name="Testgroups">
+		<classes>
+			<class name="tests.LoginpageFactoryTest"/>
+		</classes>
+	</test>
+</suite>
