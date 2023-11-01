@@ -3,7 +3,7 @@ name: Selenium Test
 on:
   push:
     branches:
-      - master
+      - cicd-tests
 
 jobs:
   selenium-test:
